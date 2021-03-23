@@ -1,0 +1,61 @@
+.site {
+  width: 800px;
+  margin: 0 auto;
+}
+.header {
+  position: relative;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+.img {
+  width: 100%;
+}
+.text1 {
+  position: absolute;
+  top: 58%;
+  left: 24%;
+  font-size: 23px;
+/*  transform: translate(-50%, -50%); */
+}
+.text2 {
+  position: absolute;
+  top: 65%;
+  left: 24%;
+  font-size: 45px;
+/*  transform: translate(-50%, -50%); */
+}
+
+p2{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+}
+.main {
+  width: 70%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  color: #222;
+  margin: 30px auto;
+}
+ul {
+  list-style-type: square;
+  
+/*  text-align: center; */
+}
+.textbox {
+  width: 75%;
+  height: 20%;
+  margin: 0 auto;
+  padding: 1px 0 1px 0;
+  background: #222;
+}
+.textboxtext {
+ font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.textboxtext::before {
+  content: '”';
+}
